@@ -9,8 +9,7 @@ function App() {
 
   // make  veriables for space and accessToken and store their values
 
-  const space = '795o7smso5da'
-  const accessToken = 'HRygj7MR0JNIAH33NYb8JQCbUhgpbWP8D0zGMWF5gGY'
+  //cut the credentionals from here and save them into .env.local
 
  
 //to create the connection with backend
