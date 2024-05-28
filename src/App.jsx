@@ -15,9 +15,9 @@ function App() {
  
 //to create the connection with backend
 const client = createClient({
-  space,
+  space: import.meta.env.VITE_SPACE_ID,
   environment: 'master', // defaults to 'master' if not set
-  accessToken
+  accessToken: import.meta.env.VITE_ACCESS_TOKEN,
 })
 
 
