@@ -9,7 +9,7 @@ function App() {
 
   // make  veriables for space and accessToken and store their values
 
-  
+  //cut the credentionals from here and save them into .env.local
 
  
 //to create the connection with backend
